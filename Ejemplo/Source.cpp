@@ -1,8 +1,6 @@
 #include <iostream>
 #include <string>
 #include <stdlib.h>
-#include<Windows.h> // Español
-#include<clocale> //Español
 
 using namespace std;
 
@@ -17,10 +15,6 @@ void imprimirAlumnos(Estudiantes alumno);
 
 
 int main() {
-
-		setlocale(LC_ALL, "Spanish");
-		SetConsoleCP(1252);
-
 	char respuesta;
 
 	cout << "Desea registrar?: ";
